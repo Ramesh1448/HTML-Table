@@ -18,7 +18,7 @@ table {
 td {
     padding: 10px;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 input[type="text"], input[type="number"], select {
@@ -31,14 +31,14 @@ input[type="text"], input[type="number"], select {
 input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #ff0015;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #33ff00;
 }
 
 @media (max-width: 600px) {
@@ -52,7 +52,13 @@ input[type="submit"]:hover {
     }
 
     td {
-        text-align: left;
+        color: white;
+        text-align: center;
         padding: 10px 0;
     }
+}
+
+h1{
+    color: white;
+
 }
