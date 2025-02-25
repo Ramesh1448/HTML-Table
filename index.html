@@ -32,13 +32,16 @@
         </style>
 
         <table>
+            
             <tr>
                 <td>First Name:</td>
-                <td><input type="text" placeholder="Enter Name"></td>
+                <td><input type="text" placeholder="Enter Name" oninput="this.value = this.value.replace(/[^a-zA-Z\s]/g, '')"></td>
             </tr>
+
+
             <tr>
                 <td>Last Name :</td>
-                <td><input type="text" placeholder="Last Name"></td>
+                <td><input type="text" placeholder="Last Name"oninput="this.value = this.value.replace(/[^a-zA-Z\s]/g, '')"></td>
             </tr>
             <tr>
                 <td>Age:</td>
